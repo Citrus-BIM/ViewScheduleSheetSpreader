@@ -2,13 +2,13 @@
 <ViewScheduleSheetSpreaderSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SheetSizeSelectedButtonName>radioButton_Instance</SheetSizeSelectedButtonName>
   <FirstSheetFamilyName>020_Основная надпись Форма 3</FirstSheetFamilyName>
-  <FirstSheetTypeName>ОТ.СО</FirstSheetTypeName>
+  <FirstSheetTypeName>Штамп</FirstSheetTypeName>
   <FollowingSheetsFamilyName>020_Основная надпись Форма 6</FollowingSheetsFamilyName>
-  <FollowingSheetsTypeName>ОТ.СО</FollowingSheetsTypeName>
+  <FollowingSheetsTypeName>Штамп</FollowingSheetsTypeName>
   <SheetFormatParameterName>А</SheetFormatParameterName>
-  <XOffsetValue>-400</XOffsetValue>
-  <YOffsetValue>292</YOffsetValue>
-  <FirstSheetNumberValue>101</FirstSheetNumberValue>
+  <XOffsetValue>0</XOffsetValue>
+  <YOffsetValue>0</YOffsetValue>
+  <FirstSheetNumberValue>69</FirstSheetNumberValue>
   <HeaderInSpecificationHeaderSelectedButtonName>radioButton_No</HeaderInSpecificationHeaderSelectedButtonName>
   <SpecificationHeaderHeightValue>32</SpecificationHeaderHeightValue>
   <SheetNumberSuffix />

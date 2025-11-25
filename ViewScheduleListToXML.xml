@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <string>О_ОВ_Оборудование</string>
-  <string>О_ОВ_Арматура трубопроводов</string>
-  <string>О_ОВ_Трубопроводы</string>
-  <string>О_ОВ_Изоляция труб</string>
+  <string>О_ОВ_Оборудование механическое</string>
+  <string>О_ОВ_Арматура воздуховодов</string>
+  <string>О_ОВ_Воздуховоды</string>
+  <string>О_ОВ_Воздухораспределители</string>
 </ArrayOfString>

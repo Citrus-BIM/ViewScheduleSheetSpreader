@@ -64,7 +64,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\R2023\</OutputPath>
+    <OutputPath>..\</OutputPath>
     <DefineConstants>DEBUG;R2023</DefineConstants>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <AssemblyName>$(AssemblyName)</AssemblyName>
@@ -180,7 +180,7 @@
         </Reference>
       </ItemGroup>
     </When>
-	<When Condition=" '$(Configuration)'=='R2024' ">
+    <When Condition=" '$(Configuration)'=='R2024' ">
       <ItemGroup>
         <Reference Include="RevitAPI">
           <HintPath>C:\Program Files\Autodesk\Revit 2024\RevitAPI.dll</HintPath>
@@ -216,6 +216,42 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="CitrusTheme\CitrusTheme.Base.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CitrusTheme\CitrusTheme.Buttons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CitrusTheme\CitrusTheme.DataGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CitrusTheme\CitrusTheme.Inputs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CitrusTheme\CitrusTheme.Lists.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CitrusTheme\CitrusTheme.Misc.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CitrusTheme\CitrusTheme.Navigation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CitrusTheme\CitrusTheme.Tokens.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CitrusTheme\CitrusTheme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="ViewScheduleSheetSpreaderWPF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -230,5 +266,6 @@
   <ItemGroup>
     <Resource Include="Resources\citrus.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
