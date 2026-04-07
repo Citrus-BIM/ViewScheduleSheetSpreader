@@ -38,7 +38,11 @@ namespace ViewScheduleSheetSpreader
             var titleBlockFamilysList = new FilteredElementCollector(doc)
                 .OfClass(typeof(Family))
                 .Cast<Family>()
+#if R2019 || R2020 || R2021 || R2022 || R2023 || R2024 || R2025
                 .Where(f => f.FamilyCategory.Id.IntegerValue.Equals((int)BuiltInCategory.OST_TitleBlocks))
+#else
+                .Where(f => f.FamilyCategory.Id.Value == new ElementId(BuiltInCategory.OST_TitleBlocks).Value)
+#endif
                 .OrderBy(f => f.Name, new AlphanumComparatorFastString())
                 .ToList();
 

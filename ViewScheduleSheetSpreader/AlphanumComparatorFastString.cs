@@ -5,7 +5,7 @@ namespace ViewScheduleSheetSpreader
 {
     public class AlphanumComparatorFastString : IComparer<String>
     {
-        public int Compare(string s1, string s2)
+        public int Compare(string? s1, string? s2)
         {
             if (s1 == null)
                 return 0;

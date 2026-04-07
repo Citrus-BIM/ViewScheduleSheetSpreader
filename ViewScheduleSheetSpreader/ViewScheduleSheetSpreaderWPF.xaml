@@ -27,7 +27,7 @@
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/ViewScheduleSheetSpreader;component/CitrusTheme/CitrusTheme.xaml"/>
+                <ResourceDictionary Source="CitrusTheme/CitrusTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -105,12 +105,12 @@
                      Columns="2">
                     <Button x:Name="btn_Add"
                         Content="Добавить ▼"
-                        Height="28"
+                        Height="32"
                         Margin="0,0,4,0"
                         Click="btn_Add_Click"/>
                     <Button x:Name="btn_Exclude"
                         Content="Убрать ▲"
-                        Height="28"
+                        Height="32"
                         Margin="4,0,0,0"
                         Click="btn_Exclude_Click"/>
                 </UniformGrid>

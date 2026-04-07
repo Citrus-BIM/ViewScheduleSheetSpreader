@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
@@ -6,10 +6,10 @@
     <ResourceDictionary Source="CitrusTheme.Tokens.xaml"/>
   </ResourceDictionary.MergedDictionaries>
 
-    <!-- ScrollBar: простой, без переопределения шаблона -->
+    <!-- ScrollBar: РїСЂРѕСЃС‚РѕР№, Р±РµР· РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёСЏ С€Р°Р±Р»РѕРЅР° -->
     <Style TargetType="ScrollBar">
         <Setter Property="Background" Value="Transparent"/>
-        <!-- размеры только по ориентации -->
+        <!-- СЂР°Р·РјРµСЂС‹ С‚РѕР»СЊРєРѕ РїРѕ РѕСЂРёРµРЅС‚Р°С†РёРё -->
         <Style.Triggers>
             <Trigger Property="Orientation" Value="Vertical">
                 <Setter Property="Width" Value="10"/>
@@ -24,11 +24,12 @@
 
     <!-- ToolTip -->
   <Style TargetType="ToolTip">
-    <Setter Property="Background" Value="{StaticResource Neutral900Brush}"/>
-    <Setter Property="Foreground" Value="White"/>
-    <Setter Property="BorderBrush" Value="{StaticResource Neutral900Brush}"/>
-    <Setter Property="BorderThickness" Value="0"/>
+    <Setter Property="Background" Value="{StaticResource CardBgBrush}"/>
+    <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+    <Setter Property="BorderBrush" Value="{StaticResource DividerBrush}"/>
+    <Setter Property="BorderThickness" Value="1"/>
     <Setter Property="Padding" Value="8,6"/>
+    <Setter Property="HasDropShadow" Value="True"/>
     <Setter Property="Template">
       <Setter.Value>
         <ControlTemplate TargetType="ToolTip">
@@ -83,7 +84,7 @@
     </Setter>
   </Style>
 
-    <!-- GroupBox: почти стандартный -->
+    <!-- GroupBox: РїРѕС‡С‚Рё СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ -->
     <Style TargetType="GroupBox">
         <Setter Property="Margin" Value="0,8,0,8"/>
         <Setter Property="Padding" Value="8"/>
@@ -112,3 +113,4 @@
   </Style>
 
 </ResourceDictionary>
+
